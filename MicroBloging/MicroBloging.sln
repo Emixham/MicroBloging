@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MicroBlogging", "MicroBlogging\MicroBlogging.vbproj", "{2A622BF6-91E2-4DA3-9C2E-F28DE5B67BCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroBloging", "MicroBloging\MicroBloging.csproj", "{B06A5E7A-4439-4323-A0BE-63A5FF543BF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A622BF6-91E2-4DA3-9C2E-F28DE5B67BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A622BF6-91E2-4DA3-9C2E-F28DE5B67BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A622BF6-91E2-4DA3-9C2E-F28DE5B67BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A622BF6-91E2-4DA3-9C2E-F28DE5B67BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06A5E7A-4439-4323-A0BE-63A5FF543BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06A5E7A-4439-4323-A0BE-63A5FF543BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06A5E7A-4439-4323-A0BE-63A5FF543BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06A5E7A-4439-4323-A0BE-63A5FF543BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D07EBFD8-B328-4E8C-BB36-384A02E98ADD}
+		SolutionGuid = {8A00DC9D-A705-4C7F-9301-92819F5934DC}
 	EndGlobalSection
 EndGlobal
