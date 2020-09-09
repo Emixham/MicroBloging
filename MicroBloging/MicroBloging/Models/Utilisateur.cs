@@ -12,8 +12,7 @@ namespace MicroBloging.Models
         public string Libelle { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        public int[] Utilisateur { get; set; }
-        public int[] Utilisateur { get; set; }
+        public int[] Utilisateurs { get; set; }
 
 
     }
