@@ -26,7 +26,7 @@ namespace MicroBloging.Models
         }
 
         [HttpPost]
-        public void Index(String Message)
+        public void Index(Post post)
         {
             this.connection.Open();
 
@@ -38,7 +38,7 @@ namespace MicroBloging.Models
 
             // utilisation de l'objet contact passé en paramètre
   
-            cmd.Parameters.AddWithValue("@message", Message);
+            cmd.Parameters.AddWithValue("@message", post.Text);
             DateTime localDate = DateTime.Now;
             cmd.Parameters.AddWithValue("@dateHeure", localDate);
 
